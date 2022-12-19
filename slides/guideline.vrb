@@ -1,0 +1,20 @@
+\frametitle{\texttt{pipenv} continued}
+
+  Uninstall a package: To uninstall a package and remove it from the Pipfile, you can use the pipenv uninstall command followed by the name of the package. For example:
+
+  \begin{lstlisting}
+pipenv uninstall numpy
+\end{lstlisting}
+
+  Activate the environment: To activate the environment created by pipenv, you can use the pipenv shell command. This will open a new shell with the environment activated.
+
+  \begin{lstlisting}
+pipenv shell
+\end{lstlisting}
+
+  Deactivate the environment: To deactivate the current environment, you can use the exit command.
+
+  \begin{lstlisting}
+exit
+\end{lstlisting}
+
